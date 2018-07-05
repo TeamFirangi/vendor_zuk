@@ -85,6 +85,21 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/zuk/msm8996-common/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/zuk/msm8996-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
+    vendor/zuk/msm8996-common/proprietary/framework/ActivityManager.java:system/framework/ActivityManager.java \
+    vendor/zuk/msm8996-common/proprietary/framework/ActivityManagerService.java:system/framework/ActivityManagerService.java \
+    vendor/zuk/msm8996-common/proprietary/framework/AlarmManagerService.java:system/framework/AlarmManagerService.java \
+    vendor/zuk/msm8996-common/proprietary/framework/AppIdleController.java:system/framework/AppIdleController.java \
+    vendor/zuk/msm8996-common/proprietary/framework/AppIdleHistory.java:system/framework/AppIdleHistory.java \
+    vendor/zuk/msm8996-common/proprietary/framework/AppIdleHistoryTests.java:system/framework/AppIdleHistoryTests.java \
+    vendor/zuk/msm8996-common/proprietary/framework/DeviceIdleController.java:system/framework/DeviceIdleController.java \
+    vendor/zuk/msm8996-common/proprietary/framework/DeviceIdleJobsController.java:system/framework/DeviceIdleJobsController.java \
+    vendor/zuk/msm8996-common/proprietary/framework/IdleController.java:system/framework/IdleController.java \
+    vendor/zuk/msm8996-common/proprietary/framework/JobSchedulerService.java:system/framework/JobSchedulerService.java \
+    vendor/zuk/msm8996-common/proprietary/framework/PowerManagerService.java:system/framework/PowerManagerService.java \
+    vendor/zuk/msm8996-common/proprietary/framework/UiAutomatorBridge.java:system/framework/UiAutomatorBridge.java \
+    vendor/zuk/msm8996-common/proprietary/framework/UsageStatsService.java:system/framework/UsageStatsService.java \
+    vendor/zuk/msm8996-common/proprietary/framework/UserUsageStatsService.java:system/framework/UserUsageStatsService.java \
+    vendor/zuk/msm8996-common/proprietary/framework/QPerformance.jar:system/framework/QPerformance.jar \
     vendor/zuk/msm8996-common/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/zuk/msm8996-common/proprietary/lib/lib-imsvt.so:system/lib/lib-imsvt.so \
     vendor/zuk/msm8996-common/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
@@ -744,4 +759,5 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     qcnvitems \
-    qcrilhook
+    qcrilhook \
+    universal_doze
